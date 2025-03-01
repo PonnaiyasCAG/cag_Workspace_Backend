@@ -36,5 +36,5 @@ public class UserDetailsController {
         return new UserResponse("Success", savedUser);  // Return the user along with success status
     }
 
-
+//karthik
 }
