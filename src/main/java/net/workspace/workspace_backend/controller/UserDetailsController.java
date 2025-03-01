@@ -35,6 +35,4 @@ public class UserDetailsController {
         UserDetails savedUser = UserdetailsService.createUser(userdetails); // Save user to DB
         return new UserResponse("Success", savedUser);  // Return the user along with success status
     }
-
-//karthik
 }
